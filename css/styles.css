@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+header{
+    background: rgba(26, 187, 131, 0.76);
+    overflow: hidden;
+    padding: 15px 0 50px;
+}
+.wrapper{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+
+.logo img{
+	max-width: 100%;
+}
+nav{
+    width: 80%;float: left;
+    text-align: right;
+}
+nav ul{
+    margin:0;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 25px;
+
+}
+nav ul li a:hover{
+	color: #000;
+    font-weight: 600;
+}
+
+.p-table-sec{
+	background: #5d5656;
+}
+.p-table{
+    box-shadow: 0 0 10px #12d41a;
+    padding: 25px 15px;
+    overflow: hidden;
+    background: #fff;
+    transform: translateY(-45px);
+}
+.heading{    
+	text-align: center;
+}
+.heading h1{    
+	margin: 0;
+	font-size: 30px;
+	color: #4E4E56;
+}
+.heading p{
+   font-size: 25px;
+   color: #4E4E56;
+   margin: 0;
+   margin-bottom: 25px;
+}
+
+.prizing-box{
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.prizing-box ul{
+    background: #cccccc;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+}
+.prizing-box ul li{
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #b1b1b1;
+    font-size: 20px;
+}
+.prizing-box ul li h2{
+    margin: 0;
+    text-transform: uppercase;
+    color: #5f5e5e;
+}
+.prizing-box ul li h1{
+    margin: 0;
+    font-size: 3em;
+    color: #505050;
+}
+.prizing-box ul li button{
+	position: relative;
+    padding: 10px 40px;
+    color: #fff;
+    background: #02cc83;
+    border: 0;
+    box-shadow: 0 4px 5px #7b7b7b;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.6s ease;
+    z-index: 0;
+    cursor: pointer;
+}
+.prizing-box ul li button:hover{
+	color: #02cc83;
+	background: #5B5B5B;
+
+}
+.p-table-section{
+    overflow: hidden;
+	background: #5D5656;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.d{
+	background: #fff;
+    float: left;
+    margin-left: 100px;
+    height: 140px;
+    width: 140px;
+    transform: rotate(45deg);
+    color:#17aa5c;
+    font-size:30px;
+    box-shadow: 0 0 10px #12d41a;
+}
+.d i{
+        transform: rotate(-45deg);
+    margin-top: 46px;
+    margin-left: 43px;
+    font-size: 45px;
+}  
